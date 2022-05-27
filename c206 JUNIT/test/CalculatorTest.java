@@ -33,13 +33,13 @@ public class CalculatorTest {
 	
 	@Test
 	public final void testsubstract() {
-		int a = 4321;
+		int a = 4322;
 		int b = 1234;
 			
 		Calculator cal = new Calculator();
 		int actual= cal.substract(a, b); 
 			 
-		int expected = 3087;
+		int expected = 3088;
 		assertEquals (expected, actual);
 		}
 	
